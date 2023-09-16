@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #343A40;
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    margin: 15px;
+}
+
+.container-fluid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bubble-sort{
+    color: #2971AA;
+    border-color: #2971AA;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 8px;
+}
+
+.selection-sort{
+    color: #2971AA;
+    border-color: #2971AA;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 8px;
+}
+
+.insertion-sort{
+    color: #2971AA;
+    border-color: #2971AA;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 8px;
+}
+
+.merge-sort{
+    color: #2971AA;
+    border-color: #2971AA;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 8px;
+}
+
+.quick-sort{
+    color: #2971AA;
+    border-color: #2971AA;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 8px;
+}
+
+.new-array{
+    color: #17909A;
+    border-color: #17909A;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 8px;
+    margin-right: 10px;
+}
+
+
+.bubble-sort,
+.selection-sort,
+.insertion-sort,
+.merge-sort,
+.quick-sort,
+.new-array {
+    color: #2971AA;
+    border-color: #2971AA;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 8px;
+}
+
+.new-array {
+    margin-right: 10px;
+}
+
+.bar {
+    background-color: yellow;
+    width: 20px;
+    margin: 2px;
+    transition: height 0.3s;
+}
+
+.bar-container{
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    height: 300px;
+    width: 70%;
+    overflow-x: auto;
+    background-color: #343A40;
+    padding: 10px;
+    margin: auto; /* Center horizontally by setting left and right margins to auto */
+}
+
